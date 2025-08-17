@@ -1,100 +1,72 @@
-🍽️ FOODCRAVE
-Full-Stack Food Delivery Application
+# 🍽️ FOODCRAVE  
+## Full-Stack Food Delivery App
 
-FoodCrave is a robust and user-friendly food delivery platform that connects customers seamlessly with their favorite local restaurants.
+FoodCrave is a user-friendly platform connecting customers with their favorite local restaurants.  
+Features include:  
+- Real-time order tracking  
+- Secure payment options  
+- Personalized meal recommendations  
 
-Real-time order tracking for enhanced user experience
+Delicious meals are just a few clicks away!
 
-Secure and versatile payment options
+---
 
-Personalized meal recommendations based on preferences
+# 🚀 DEVOPS PROJECT: FOODCRAVE APP DEPLOYMENT
 
-Ensures smooth and reliable food ordering with just a few clicks
+This project covers building, scanning, containerizing, and deploying the FoodCrave React app using DevOps best practices.
 
-🚀 DEVOPS REAL-TIME PROJECT: FOODCRAVE APP DEPLOYMENT
+---
 
-This project covers the complete DevOps lifecycle for deploying the FoodCrave React app by leveraging modern tools and practices.
+# 🛠️ Tools & Technologies
 
-Key highlights:
+**CI/CD & Infrastructure**  
+- GitHub (Source Code)  
+- Jenkins (Automation Server)  
+- Terraform (Infrastructure as Code)  
 
-CI/CD pipeline automation
+**Quality & Security**  
+- SonarQube (Static Code Analysis)  
+- OWASP Dependency-Check (Vulnerability Scanning)  
+- Trivy (Docker Image Security)  
 
-Infrastructure provisioning as code
+**Containerization & Registry**  
+- Docker  
+- DockerHub (mahi115)  
 
-Comprehensive security scanning
+---
 
-Containerization and registry management
+# 📂 Project Links
 
-🛠️ TOOLS & TECHNOLOGIES USED
-⚙️ CI/CD & Infrastructure
+- GitHub Repo: [MahendarSura/FoodCrave](https://github.com/MahendarSura/FoodCrave)  
+- DockerHub: [mahi115](https://hub.docker.com/u/mahi115)  
 
-GitHub – Central source code repository
+---
 
-Jenkins – Automated build and deployment server
+# 📦 Jenkins Pipeline Overview
 
-Terraform – Infrastructure as Code (IaC) for cloud provisioning
+GitHub → Jenkins → SonarQube → OWASP + Trivy → Docker Build → DockerHub Push → Terraform Deployment
 
-🔍 Quality & Security
+---
 
-SonarQube – Continuous code quality inspection
+# 👨‍💼 About Me
 
-OWASP Dependency-Check – Identifies vulnerable dependencies
+![Mahendar Sura](https://media.licdn.com/dms/image/C5603AQG2Np4trKUjJw/profile-displayphoto-shrink_800_800/0/1658405898417?e=2147483647&v=beta&t=phMUNk_5mTkR5hxf5Y7ejx7uFfA2kzmrcvMi6lXh0j2E =150x150)
 
-Trivy – Docker image vulnerability scanner
-
-🐳 Containerization & Registry
-
-Docker – Application containerization platform
-
-DockerHub – Image repository (DockerHub username: mahi115)
-
-📂 PROJECT LINKS
-
-GitHub Repository: MahendarSura/FoodCrave
-
-DockerHub Images: mahi115
-
-📦 JENKINS PIPELINE OVERVIEW
-GitHub (Source Code)  
-    ↓  
-Jenkins (Build & Test Automation)  
-    ↓  
-SonarQube (Code Quality Analysis)  
-    ↓  
-OWASP Dependency-Check + Trivy Scan (Security & Vulnerability)  
-    ↓  
-Docker Build (Containerization)  
-    ↓  
-DockerHub Push (Image Registry)  
-    ↓  
-Terraform Provisioning & Deployment (Cloud Infrastructure)
-
-👨‍💼 ABOUT ME
-
-<img src="https://media.licdn.com/dms/image/C5603AQG2Np4trKUjJw/profile-displayphoto-shrink_800_800/0/1658405898417?e=2147483647&v=beta&t=phMUNk_5mTkR5hxf5Y7ejx7uFfA2kzmrcvMi6lXh0j2E" alt="Mahendar Sura" width="150" height="150" style="border-radius:50%; margin-bottom: 1em;" />
-
-Mahendar Sura
+**Mahendar Sura**  
 DevOps Engineer & Full-Stack Developer
 
-I specialize in cloud-native application deployment, automation, and infrastructure management using DevOps best practices. Passionate about building scalable, secure, and reliable systems.
+Cloud-native app deployment, automation & infrastructure management are my passions.
 
-Connect with me:
+Connect:  
+[LinkedIn](https://www.linkedin.com/in/mahendar-sura/) | [GitHub](https://github.com/MahendarSura) | [DockerHub](https://hub.docker.com/u/mahi115)
 
-LinkedIn: linkedin.com/in/mahendar-sura
+---
 
-GitHub: github.com/MahendarSura
+# 📢 Feedback & Collaboration
 
-DockerHub: hub.docker.com/u/mahi115
+Your feedback matters! Feel free to:  
+- Share your experience  
+- Open issues or pull requests  
+- Connect on LinkedIn for collaboration  
 
-📢 FEEDBACK & COLLABORATION
-
-Your feedback and contributions are highly appreciated!
-
-Share your deployment stories or demo videos
-
-Raise issues or contribute improvements through pull requests
-
-Connect on LinkedIn for knowledge exchange and collaboration
-
-“Automation and security in software delivery are the cornerstones of modern scalable applications.”
-— Mahendar Sura
+> “Automation and security are essential for modern software delivery.” – Mahendar Sura
