@@ -11,6 +11,7 @@ This project demonstrates the end-to-end process of building, scanning, containe
 It highlights best practices in CI/CD automation, infrastructure as code, and application security.
 
 🛠️ TOOLS & TECHNOLOGIES USED
+
 ⚙️ CI/CD & Infrastructure
 
 GitHub – Source Code Repository
@@ -40,15 +41,17 @@ DockerHub – Public Docker Image Registry (mahi115)
 🐳 DockerHub Images: mahi115
 
 📦 JENKINS PIPELINE OVERVIEW
-GitHub (Source Code)  
-  → Jenkins (Build & Test Automation)  
-    → SonarQube (Code Quality Analysis)  
-      → OWASP Dependency-Check + Trivy Scan (Security & Vulnerability Scanning)  
-        → Docker Build (Containerize Application)  
-          → DockerHub Push (Image Registry)  
-            → Deployment to Cloud Infrastructure (Provisioned via Terraform)
+
+GitHub (Source Code)
+→ Jenkins (Build & Test Automation)
+→ SonarQube (Code Quality Analysis)
+→ OWASP Dependency-Check + Trivy Scan (Security & Vulnerability Scanning)
+→ Docker Build (Containerize Application)
+→ DockerHub Push (Image Registry)
+→ Deployment to Cloud Infrastructure (Provisioned via Terraform)
 
 👨‍💼 ABOUT ME
+
 <img src="https://media.licdn.com/dms/image/C5603AQG2Np4trKUjJw/profile-displayphoto-shrink_800_800/0/1658405898417?e=2147483647&v=beta&t=phMUNk_5mTkR5hxf5Y7ejx7uFfA2kzmrcvMi6lXh0j2E" alt="Mahendar Sura" width="150" height="150" style="border-radius:50%; margin-bottom: 1em;" />
 
 Mahendar Sura — DevOps Engineer & Full-Stack Developer
@@ -56,11 +59,9 @@ Mahendar Sura — DevOps Engineer & Full-Stack Developer
 I specialize in cloud-native application deployment, automation, and infrastructure management using DevOps best practices. My passion lies in streamlining software delivery and ensuring production-grade security and reliability.
 
 Connect with me:
-
-
-
-
-
+LinkedIn: https://www.linkedin.com/in/mahendar-sura/
+GitHub: https://github.com/MahendarSura
+DockerHub: https://hub.docker.com/u/mahi115
 
 📢 FEEDBACK & COLLABORATION
 
