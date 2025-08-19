@@ -61,7 +61,7 @@ function OffersBanner() {
                     <img className='img-fluid' width={'140px'} src={staters} alt="Staters" />
                     <img className='img-fluid' width={'140px'} src={wings} alt="Wings" />
                     <img className='img-fluid' width={'140px'} src={paratha} alt="Paratha" />
-                    <img className='img-fluid' width={'140px'} src={pav_Bhaji} alt="Pav Bhaji" />
+                    <img className='img-fluid' width={'140px'} src={pav_bhaji} alt="Pav Bhaji" />
                     <img className='img-fluid' width={'140px'} src={noodles} alt="Noodles" />
                     <img className='img-fluid' width={'140px'} src={south_indian} alt="South_Indian" />
                     <img className='img-fluid' width={'140px'} src={north_indian} alt="North_Indian" />
