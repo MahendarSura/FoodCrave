@@ -21,7 +21,7 @@ import momo from '../Categories/momo.png';
 import rolls from '../Categories/rolls.png';
 import pasta from '../Categories/pasta.png';
 import shawarma from '../Categories/shawarma.png';
-import staters from '../Categories/staters.png';
+import starters from '../Categories/starters.png';
 import wings from '../Categories/wings.png';
 import paratha from '../Categories/paratha.png';
 import pav_bhaji from '../Categories/pav_bhaji.png';
