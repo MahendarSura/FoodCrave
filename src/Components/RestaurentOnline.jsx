@@ -48,7 +48,7 @@ function RestaurentOnline() {
                         }} className='Online-Card-img '>
                             <div className='Online-color'><h4 className='fw-bolder' >25% OFF UPTO ₹125</h4></div>
                         </div>
-                        <h5 className='mt-3'>Frozen Bottle - Milkshakes,...</h5>
+                        <h5 className='mt-3'>Frozen Bottle - Milkshakes...</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star"></i>4.1
                         <p style={{fontWeight:"300"}}>Deserts, Beverages, IceCream,...<br />Mancherial</p>
                     </div>
@@ -59,7 +59,7 @@ function RestaurentOnline() {
                         }} className='Online-Card-img '>
                             <div className='Online-color'><h4 className='fw-bolder' >50% OFF UPTO ₹100</h4></div>
                         </div>
-                        <h5 className='mt-3'>Faasos - Wrap & Rolls</h5>
+                        <h5 className='mt-3'>Faasos - Wrap & Rolls...</h5>
                         <i style={{color:"#20963a"}} className="fa-solid fa-star"></i>3.7
                         <p style={{fontWeight:"300"}}>Kebabs, Fast Food, Snacks, North...<br />Mancherial</p>
                     </div>
