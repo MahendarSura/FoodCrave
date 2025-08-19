@@ -1,6 +1,50 @@
-::-webkit-scrollbar{
-    display: none;
+.scroll-row {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
 }
-#banner-img img{
-    cursor: pointer;
+
+.scroll-row::-webkit-scrollbar {
+  display: none;
+}
+
+.offers-container {
+  width: 80%;
+  margin: auto;
+}
+
+.offer-img {
+  width: 450px;
+  border-radius: 12px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.offer-img:hover {
+  transform: scale(1.02);
+}
+
+.category-card {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.category-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.category-card img:hover {
+  transform: scale(1.1);
+}
+
+.category-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
 }
