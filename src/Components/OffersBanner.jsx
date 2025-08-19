@@ -54,17 +54,17 @@ function OffersBanner() {
                     <img className='img-fluid' width={'140px'} src={idli} alt="Idli" />
                     <img className='img-fluid' width={'140px'} src={kebabs} alt="Kebabs" />
                     <img className='img-fluid' width={'140px'} src={shakes} alt="Shakes" />
-                    <img className='img-fluid' width={'140px'} src={dosa} alt="Dosa" />
+                    <img className='img-fluid' width={'140px'} src={momo} alt="Dosa" />
                     <img className='img-fluid' width={'140px'} src={rolls} alt="Rolls" />
                     <img className='img-fluid' width={'140px'} src={pasta} alt="Pasta" />
                     <img className='img-fluid' width={'140px'} src={shawarma} alt="Shawarma" />
-                    <img className='img-fluid' width={'140px'} src={stater} alt="Staters" />
+                    <img className='img-fluid' width={'140px'} src={staters} alt="Staters" />
                     <img className='img-fluid' width={'140px'} src={wings} alt="Wings" />
                     <img className='img-fluid' width={'140px'} src={paratha} alt="Paratha" />
-                    <img className='img-fluid' width={'140px'} src={pavBhaji} alt="Pav Bhaji" />
+                    <img className='img-fluid' width={'140px'} src={pav_Bhaji} alt="Pav Bhaji" />
                     <img className='img-fluid' width={'140px'} src={noodles} alt="Noodles" />
-                    <img className='img-fluid' width={'140px'} src={southIndian} alt="South_Indian" />
-                    <img className='img-fluid' width={'140px'} src={northIndian} alt="North_Indian" />
+                    <img className='img-fluid' width={'140px'} src={south_indian} alt="South_Indian" />
+                    <img className='img-fluid' width={'140px'} src={north_indian} alt="North_Indian" />
                 </div>
                 <hr />
             </div>
