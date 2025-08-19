@@ -34,7 +34,7 @@ function OffersBanner() {
         <div className='d-flex justify-content-center align-items-center mt-5 flex-column'>
             <div className='w-75'>
                 <h4 className='fw-bolder'>Best offers for you</h4>
-                <div id='banner-img' className='d-flex align-items-center' style={{ overflowY: "scroll", gap: "20px" }}>
+                <div id='banner-img' className='d-flex align-items-center' style={{ overflowY: "auto", gap: "20px" }}>
                     <img width={'450px'} src={banner2} alt="Offer" />
                     <img width={'450px'} src={banner1} alt="Offer" />
                     <img width={'450px'} src={banner3} alt="Offer" />
@@ -44,7 +44,7 @@ function OffersBanner() {
 
             <div className='w-75 mt-5'>
                 <h4 className='fw-bolder'>What's on your mind Today in Mancherial?</h4>
-                <div className='d-flex align-items-center' style={{ overflowY: "scroll", gap: "19px" }}>
+                <div className='d-flex align-items-center' style={{ overflowY: "auto", gap: "19px" }}>
                     <img className='img-fluid' width={'140px'} src={biryani} alt="biryani" />
                     <img className='img-fluid' width={'140px'} src={burger} alt="burger" />
                     <img className='img-fluid' width={'140px'} src={pizza} alt="pizza" />
