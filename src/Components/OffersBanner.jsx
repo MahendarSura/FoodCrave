@@ -17,7 +17,7 @@ import icecream from '../Categories/icecream.png';
 import idli from '../Categories/idli.png';
 import kebabs from '../Categories/kebabs.png';
 import shakes from '../Categories/shakes.png';
-import dosa from '../Categories/dosa.png';
+import dosa from '../Categories/momo.png';
 import rolls from '../Categories/rolls.png';
 import pasta from '../Categories/pasta.png';
 import shawarma from '../Categories/shawarma.png';
