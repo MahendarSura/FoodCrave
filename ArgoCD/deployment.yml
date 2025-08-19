@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: foodcrave-app
-        image: yourdockerhubusername/foodcrave-app:latest
+        image: mahi115/foodcrave-app:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
