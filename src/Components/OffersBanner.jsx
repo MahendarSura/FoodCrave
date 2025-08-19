@@ -17,17 +17,17 @@ import icecream from '../Categories/icecream.png';
 import idli from '../Categories/idli.png';
 import kebabs from '../Categories/kebabs.png';
 import shakes from '../Categories/shakes.png';
-import dosa from '../Categories/momo.png';
+import momo from '../Categories/momo.png';
 import rolls from '../Categories/rolls.png';
 import pasta from '../Categories/pasta.png';
 import shawarma from '../Categories/shawarma.png';
-import desserts from '../Categories/desserts.png';
+import staters from '../Categories/staters.png';
 import wings from '../Categories/wings.png';
 import paratha from '../Categories/paratha.png';
-import pavBhaji from '../Categories/pav_bhaji.png';
+import pav_Bhaji from '../Categories/pav_bhaji.png';
 import noodles from '../Categories/noodles.png';
-import southIndian from '../Categories/south_indain.png'; 
-import northIndian from '../Categories/north_indian.png';
+import south_indian from '../Categories/south_indain.png'; 
+import north_indian from '../Categories/north_indian.png';
 
 function OffersBanner() {
     return (
@@ -58,7 +58,7 @@ function OffersBanner() {
                     <img className='img-fluid' width={'140px'} src={rolls} alt="Rolls" />
                     <img className='img-fluid' width={'140px'} src={pasta} alt="Pasta" />
                     <img className='img-fluid' width={'140px'} src={shawarma} alt="Shawarma" />
-                    <img className='img-fluid' width={'140px'} src={desserts} alt="Desserts" />
+                    <img className='img-fluid' width={'140px'} src={stater} alt="Staters" />
                     <img className='img-fluid' width={'140px'} src={wings} alt="Wings" />
                     <img className='img-fluid' width={'140px'} src={paratha} alt="Paratha" />
                     <img className='img-fluid' width={'140px'} src={pavBhaji} alt="Pav Bhaji" />
