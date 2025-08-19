@@ -26,7 +26,7 @@ import wings from '../Categories/wings.png';
 import paratha from '../Categories/paratha.png';
 import pav_bhaji from '../Categories/pav_bhaji.png';
 import noodles from '../Categories/noodles.png';
-import south_indian from '../Categories/south_indain.png'; 
+import south_indian from '../Categories/south_indian.png'; 
 import north_indian from '../Categories/north_indian.png';
 
 function OffersBanner() {
