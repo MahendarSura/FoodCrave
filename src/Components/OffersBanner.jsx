@@ -24,7 +24,7 @@ import shawarma from '../Categories/shawarma.png';
 import desserts from '../Categories/desserts.png';
 import wings from '../Categories/wings.png';
 import paratha from '../Categories/paratha.png';
-import pavBhaji from '../Categories/pav bhaji.png';
+import pavBhaji from '../Categories/pav_bhaji.png';
 import noodles from '../Categories/noodles.png';
 import southIndian from '../Categories/south_indain.png'; 
 import northIndian from '../Categories/north_indian.png';
