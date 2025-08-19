@@ -23,7 +23,7 @@ function OffersBanner() {
 
                 <h4 className='fw-bolder'>What's on your mind Today in Mancherial?</h4>
                 <div className='d-flex align-items-center' style={{ overflowY: "scroll", gap: "19px" }}>
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/rng/md/carousel/production/e20c602ba8ed5d8ec2204e7a7b19d9f6" alt="Pothichoru" />
+                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/rng/md/carousel/production/e20c602ba8ed5d8ec2204e7a7b19d9f6" alt="Meals" />
 
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667625/PC_Creative%20refresh/Biryani_2.png" alt="Biriyani" />
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png" alt="Burger" />
