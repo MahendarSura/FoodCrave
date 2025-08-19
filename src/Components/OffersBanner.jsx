@@ -1,10 +1,33 @@
-import React from 'react'
-import './OfferBanner.css'
-import banner2 from'../Photos/Banner2.png'
-import banner1 from'../Photos/Banner1.png'
-import banner3 from'../Photos/Banner3.png'
-import banner4 from'../Photos/Banner4.png'
+import React from 'react';
+import './OfferBanner.css';
 
+
+import banner1 from '../Photos/Banner1.png';
+import banner2 from '../Photos/Banner2.png';
+import banner3 from '../Photos/Banner3.png';
+import banner4 from '../Photos/Banner4.png';
+
+
+import biryani from '../Categories/biryani.png';
+import burger from '../Categories/burger.png';
+import pizza from '../Categories/pizza.png';
+import chinese from '../Categories/chinese.png';
+import cake from '../Categories/cake.png';
+import icecream from '../Categories/icecream.png';
+import idli from '../Categories/idli.png';
+import kebabs from '../Categories/kebabs.png';
+import shakes from '../Categories/shakes.png';
+import dosa from '../Categories/dosa.png';
+import rolls from '../Categories/rolls.png';
+import pasta from '../Categories/pasta.png';
+import shawarma from '../Categories/shawarma.png';
+import desserts from '../Categories/desserts.png';
+import wings from '../Categories/wings.png';
+import paratha from '../Categories/paratha.png';
+import pavBhaji from '../Categories/pav bhaji.png';
+import noodles from '../Categories/noodles.png';
+import southIndian from '../Categories/south_indain.png'; 
+import northIndian from '../Categories/north_indian.png';
 
 function OffersBanner() {
     return (
@@ -20,39 +43,33 @@ function OffersBanner() {
             </div>
 
             <div className='w-75 mt-5'>
-
                 <h4 className='fw-bolder'>What's on your mind Today in Mancherial?</h4>
                 <div className='d-flex align-items-center' style={{ overflowY: "scroll", gap: "19px" }}>
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/rng/md/carousel/production/e20c602ba8ed5d8ec2204e7a7b19d9f6" alt="Meals" />
-
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667625/PC_Creative%20refresh/Biryani_2.png" alt="Biriyani" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png" alt="Burger" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png" alt="Pizza" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667626/PC_Creative%20refresh/South_Indian_4.png" alt="South Indian" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png" alt="Chinese" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667625/PC_Creative%20refresh/North_Indian_4.png" alt="North Indian" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Shawarma.png" alt="Shawarma" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png" alt="Rolls" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667630/PC_Creative%20refresh/Desserts_2.png" alt="Desserts" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Shakes.png" alt="Shakes" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Pure_Veg.png" alt="Pure Veg" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png" alt="Dosa" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png" alt="Cakes" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png" alt="Paratha" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png" alt="Pasta" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png" alt="Kebabs" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png" alt="Idli" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png" alt="Ice Creams" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/rng/md/carousel/production/cbb85a3c1684891105294d11f8359996" alt="Tea" /> 
-
-
-
+                    <img className='img-fluid' width={'140px'} src={biryani} alt="Biryani" />
+                    <img className='img-fluid' width={'140px'} src={burger} alt="Burger" />
+                    <img className='img-fluid' width={'140px'} src={pizza} alt="Pizza" />
+                    <img className='img-fluid' width={'140px'} src={chinese} alt="Chinese" />
+                    <img className='img-fluid' width={'140px'} src={cake} alt="Cake" />
+                    <img className='img-fluid' width={'140px'} src={icecream} alt="Ice Cream" />
+                    <img className='img-fluid' width={'140px'} src={idli} alt="Idli" />
+                    <img className='img-fluid' width={'140px'} src={kebabs} alt="Kebabs" />
+                    <img className='img-fluid' width={'140px'} src={shakes} alt="Shakes" />
+                    <img className='img-fluid' width={'140px'} src={dosa} alt="Dosa" />
+                    <img className='img-fluid' width={'140px'} src={rolls} alt="Rolls" />
+                    <img className='img-fluid' width={'140px'} src={pasta} alt="Pasta" />
+                    <img className='img-fluid' width={'140px'} src={shawarma} alt="Shawarma" />
+                    <img className='img-fluid' width={'140px'} src={desserts} alt="Desserts" />
+                    <img className='img-fluid' width={'140px'} src={wings} alt="Wings" />
+                    <img className='img-fluid' width={'140px'} src={paratha} alt="Paratha" />
+                    <img className='img-fluid' width={'140px'} src={pavBhaji} alt="Pav Bhaji" />
+                    <img className='img-fluid' width={'140px'} src={noodles} alt="Noodles" />
+                    <img className='img-fluid' width={'140px'} src={southIndian} alt="South_Indian" />
+                    <img className='img-fluid' width={'140px'} src={northIndian} alt="North_Indian" />
                 </div>
                 <hr />
             </div>
         </div>
-    )
+    );
 }
 
-export default OffersBanner
-
+export default OffersBanner;
