@@ -46,7 +46,7 @@ function Footer() {
                     <p>Mumbai</p>
                     <p>Pune </p>
                     <button style={{padding:"10px",background:"transparent",color:"#9e9e9e",border:"1px solid rgba(196, 198, 202, 0.1)",borderRadius:"20px"}}>589 cities <i className="ms-5 fa-solid fa-angle-down"></i></button>
-                 </di>
+                 </div>
              </div>
         </div>
 
