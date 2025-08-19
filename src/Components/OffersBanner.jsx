@@ -1,9 +1,9 @@
 import React from 'react'
 import './OfferBanner.css'
-import banner2 from '../Photos/Banner2.png'
-import banner1 from '../Photos/Banner1.png'
-import banner3 from '../Photos/Banner3.png'
-import banner4 from '../Photos/Banner4.png'
+import banner2 from'../Photos/Banner2.png'
+import banner1 from'../Photos/Banner1.png'
+import banner3 from'../Photos/Banner3.png'
+import banner4 from'../Photos/Banner4.png'
 
 function OffersBanner() {
     return (
