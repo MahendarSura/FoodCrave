@@ -5,6 +5,7 @@ import banner1 from'../Photos/Banner1.png'
 import banner3 from'../Photos/Banner3.png'
 import banner4 from'../Photos/Banner4.png'
 
+
 function OffersBanner() {
     return (
         <div className='d-flex justify-content-center align-items-center mt-5 flex-column'>
@@ -19,9 +20,11 @@ function OffersBanner() {
             </div>
 
             <div className='w-75 mt-5'>
+
                 <h4 className='fw-bolder'>What's on your mind Today in Mancherial?</h4>
                 <div className='d-flex align-items-center' style={{ overflowY: "scroll", gap: "19px" }}>
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/rng/md/carousel/production/e20c602ba8ed5d8ec2204e7a7b19d9f6" alt="Pothichoru" />
+
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1675667625/PC_Creative%20refresh/Biryani_2.png" alt="Biriyani" />
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png" alt="Burger" />
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png" alt="Pizza" />
@@ -40,7 +43,10 @@ function OffersBanner() {
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png" alt="Kebabs" />
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png" alt="Idli" />
                     <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png" alt="Ice Creams" />
-                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/rng/md/carousel/production/cbb85a3c1684891105294d11f8359996" alt="Tea" />
+                    <img className='img-fluid' width={'140px'} src="https://media-assets.foodcrave.com/foodcrave/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/rng/md/carousel/production/cbb85a3c1684891105294d11f8359996" alt="Tea" /> 
+
+
+
                 </div>
                 <hr />
             </div>
