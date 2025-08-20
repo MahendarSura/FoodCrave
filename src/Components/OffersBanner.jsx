@@ -5,7 +5,7 @@ const banners = [
   '/Photos/Banner2.png',
   '/Photos/Banner3.png',
   '/Photos/Banner4.png',
-];
+  '/Photos/Banner5.png',
 
 const categories = [
   { img: '/Categories/biryani.png', name: 'Biryani' },
