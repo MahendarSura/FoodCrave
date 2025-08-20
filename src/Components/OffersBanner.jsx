@@ -1,13 +1,12 @@
 import React from 'react';
-import './OfferBanner.css';
 
-// Banner images
+// Import banner images from src/Photos/
 import banner1 from '../Photos/Banner1.png';
 import banner2 from '../Photos/Banner2.png';
 import banner3 from '../Photos/Banner3.png';
 import banner4 from '../Photos/Banner4.png';
 
-// Category images
+// Import category images from src/Categories/
 import biryani from '../Categories/biryani.png';
 import burger from '../Categories/burger.png';
 import cake from '../Categories/cake.png';
@@ -29,50 +28,79 @@ import south_indian from '../Categories/south_indian.png';
 import starters from '../Categories/starters.png';
 import wings from '../Categories/wings.png';
 
-// Import your CSS file
-import './OfferBanner.css';
+const banners = [banner1, banner2, banner3, banner4];
 
-function OffersBanner() {
+const categories = [
+  { img: biryani, name: 'Biryani' },
+  { img: burger, name: 'Burger' },
+  { img: cake, name: 'Cake' },
+  { img: chinese, name: 'Chinese' },
+  { img: icecream, name: 'Ice Cream' },
+  { img: idli, name: 'Idli' },
+  { img: kebabs, name: 'Kebabs' },
+  { img: momo, name: 'Momo' },
+  { img: noodles, name: 'Noodles' },
+  { img: north_indian, name: 'North Indian' },
+  { img: paratha, name: 'Paratha' },
+  { img: pasta, name: 'Pasta' },
+  { img: pav_bhaji, name: 'Pav Bhaji' },
+  { img: pizza, name: 'Pizza' },
+  { img: rolls, name: 'Rolls' },
+  { img: shakes, name: 'Shakes' },
+  { img: shawarma, name: 'Shawarma' },
+  { img: south_indian, name: 'South Indian' },
+  { img: starters, name: 'Starters' },
+  { img: wings, name: 'Wings' }
+];
+
+const OffersBanner = () => {
   return (
     <div>
+      <header>
+        <h1>FoodCrave</h1>
+        {/* Your other nav items here */}
+      </header>
 
-      {/* Best Offers Section */}
-      <h2>Best Offers for You</h2>
-      {/* Scrollable banner div with id for CSS scrollbar hiding */}
-      <div id="banner-img" style={{ display: 'flex', gap: '20px', overflowX: 'auto' }}>
-        <img src={banner1} alt="Banner 1" className="offer-img" />
-        <img src={banner2} alt="Banner 2" className="offer-img" />
-        <img src={banner3} alt="Banner 3" className="offer-img" />
-        <img src={banner4} alt="Banner 4" className="offer-img" />
-      </div>
+      <section>
+        <h2>Best Offers for You</h2>
+        {/* Banner Images */}
+        <div style={{ display: 'flex', gap: '10px', overflowX: 'auto' }}>
+          {banners.map((banner, idx) => (
+            <img
+              key={idx}
+              src={banner}
+              alt={`Banner ${idx + 1}`}
+              style={{ height: '150px', borderRadius: '8px', flexShrink: 0 }}
+            />
+          ))}
+        </div>
+      </section>
 
-      {/* Categories Section */}
-      <h2>What's on your mind Today?</h2>
-      <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
-        <div><img src={biryani} alt="Biryani" className="category-img" /><p>Biryani</p></div>
-        <div><img src={burger} alt="Burger" className="category-img" /><p>Burger</p></div>
-        <div><img src={cake} alt="Cake" className="category-img" /><p>Cake</p></div>
-        <div><img src={chinese} alt="Chinese" className="category-img" /><p>Chinese</p></div>
-        <div><img src={icecream} alt="Ice Cream" className="category-img" /><p>Ice Cream</p></div>
-        <div><img src={idli} alt="Idli" className="category-img" /><p>Idli</p></div>
-        <div><img src={kebabs} alt="Kebabs" className="category-img" /><p>Kebabs</p></div>
-        <div><img src={momo} alt="Momo" className="category-img" /><p>Momo</p></div>
-        <div><img src={noodles} alt="Noodles" className="category-img" /><p>Noodles</p></div>
-        <div><img src={north_indian} alt="North Indian" className="category-img" /><p>North Indian</p></div>
-        <div><img src={paratha} alt="Paratha" className="category-img" /><p>Paratha</p></div>
-        <div><img src={pasta} alt="Pasta" className="category-img" /><p>Pasta</p></div>
-        <div><img src={pav_bhaji} alt="Pav Bhaji" className="category-img" /><p>Pav Bhaji</p></div>
-        <div><img src={pizza} alt="Pizza" className="category-img" /><p>Pizza</p></div>
-        <div><img src={rolls} alt="Rolls" className="category-img" /><p>Rolls</p></div>
-        <div><img src={shakes} alt="Shakes" className="category-img" /><p>Shakes</p></div>
-        <div><img src={shawarma} alt="Shawarma" className="category-img" /><p>Shawarma</p></div>
-        <div><img src={south_indian} alt="South Indian" className="category-img" /><p>South Indian</p></div>
-        <div><img src={starters} alt="Starters" className="category-img" /><p>Starters</p></div>
-        <div><img src={wings} alt="Wings" className="category-img" /><p>Wings</p></div>
-      </div>
+      <section style={{ marginTop: '30px' }}>
+        <h2>What's on your mind Today?</h2>
+        {/* Food categories with images above names */}
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', marginTop: '15px' }}>
+          {categories.map(({ img, name }) => (
+            <div
+              key={name}
+              style={{ width: '100px', textAlign: 'center', cursor: 'pointer' }}
+              onClick={() => alert(`Clicked on ${name}`)}
+            >
+              <img
+                src={img}
+                alt={name}
+                style={{ width: '80px', height: '80px', marginBottom: '8px', borderRadius: '10px' }}
+              />
+              <p style={{ margin: 0 }}>{name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* You can add other parts of the homepage below */}
 
     </div>
   );
-}
+};
 
 export default OffersBanner;
