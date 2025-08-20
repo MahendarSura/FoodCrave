@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import './Navigate.css'
-import logo from '../Photos/Logo.png' // ✅ Using the correct Foodcrave logo from src/Photos
+import logo from '../Photos/Logo.png' 
 
 function Navigate() {
     return (
@@ -13,7 +13,6 @@ function Navigate() {
                         style={{ gap: '30px' }}
                         className='d-flex justify-content-center align-items-center'
                     >
-                        {/* ✅ Local Foodcrave logo image */}
                         <img width={'55px'} src={logo} alt="Foodcrave Logo" />
                         <p style={{ fontSize: '13px' }} className='mt-3'>
                             <span className='fw-bold text-decoration-underline'>Mancherial</span> Near IB Chowrastha...
