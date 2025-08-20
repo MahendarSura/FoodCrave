@@ -1,18 +1,5 @@
-/* app.css – FoodCrave App */
-
-* {
-  font-family: 'Yantramanav', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f8f8f8;
-  color: #333;
-}
-
-/* Section spacing (like Swiggy) */
-.section {
-  margin-top: 40px;
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
