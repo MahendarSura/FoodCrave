@@ -1,14 +1,21 @@
-#banner-img {
-    overflow-x: auto;
-    padding-bottom: 10px;
-    scrollbar-width: none; 
-}
-#banner-img::-webkit-scrollbar {
-    display: none; /* 
+.offer-img {
+    width: 450px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.img-fluid {
-    max-width: 100%;
+.category-img {
+    width: 140px;
     height: auto;
-    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Hide scrollbar */
+#banner-img::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+#banner-img {
+    scrollbar-width: none;
 }
