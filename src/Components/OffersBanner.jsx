@@ -30,6 +30,7 @@ import north_indian from '../Categories/north_indian.png';
 function OffersBanner() {
     return (
         <div className='container-fluid d-flex justify-content-center align-items-center mt-5 flex-column'>
+            {/* Offers Section */}
             <div className='w-100 px-3'>
                 <h4 className='fw-bolder'>Best offers for you</h4>
                 <div id='banner-img' className='d-flex align-items-center px-2' style={{ overflowX: "scroll", gap: "20px" }}>
@@ -40,9 +41,10 @@ function OffersBanner() {
                 </div>
             </div>
 
-            <div className='w-75 mt-5'>
+            {/* Category Section */}
+            <div className='w-100 mt-5 px-3'>
                 <h4 className='fw-bolder'>What's on your mind Today in Mancherial?</h4>
-                <div className='d-flex align-items-center' style={{ overflowX: "scroll", gap: "19px" }}>
+                <div className='d-flex align-items-center px-2' style={{ overflowX: "scroll", gap: "19px" }}>
                     <img className='img-fluid' width={'140px'} src={biryani} alt="biryani" />
                     <img className='img-fluid' width={'140px'} src={burger} alt="burger" />
                     <img className='img-fluid' width={'140px'} src={pizza} alt="pizza" />
