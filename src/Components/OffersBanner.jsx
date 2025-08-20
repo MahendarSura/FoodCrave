@@ -6,6 +6,7 @@ const banners = [
   '/Photos/Banner3.png',
   '/Photos/Banner4.png',
   '/Photos/Banner5.png',
+];
 
 const categories = [
   { img: '/Categories/biryani.png', name: 'Biryani' },
@@ -35,12 +36,10 @@ const OffersBanner = () => {
     <div>
       <header>
         <h1>FoodCrave</h1>
-        {/* Your other nav items here */}
       </header>
 
       <section>
         <h2>Best Offers for You</h2>
-        {/* Banner Images */}
         <div style={{ display: 'flex', gap: '10px', overflowX: 'auto' }}>
           {banners.map((banner, idx) => (
             <img
@@ -55,7 +54,6 @@ const OffersBanner = () => {
 
       <section style={{ marginTop: '30px' }}>
         <h2>What's on your mind Today?</h2>
-        {/* Food categories with images above names */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', marginTop: '15px' }}>
           {categories.map(({ img, name }) => (
             <div
