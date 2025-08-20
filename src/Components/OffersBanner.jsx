@@ -28,42 +28,46 @@ import south_indian from '../Categories/south_indian.png';
 import starters from '../Categories/starters.png';
 import wings from '../Categories/wings.png';
 
+// Import your CSS file
+import './OfferBanner.css';
+
 function OffersBanner() {
   return (
     <div>
 
       {/* Best Offers Section */}
       <h2>Best Offers for You</h2>
-      <div style={{ display: 'flex', gap: '20px' }}>
-        <img src={banner1} alt="Banner 1" width={200} />
-        <img src={banner2} alt="Banner 2" width={200} />
-        <img src={banner3} alt="Banner 3" width={200} />
-        <img src={banner4} alt="Banner 4" width={200} />
+      {/* Scrollable banner div with id for CSS scrollbar hiding */}
+      <div id="banner-img" style={{ display: 'flex', gap: '20px', overflowX: 'auto' }}>
+        <img src={banner1} alt="Banner 1" className="offer-img" />
+        <img src={banner2} alt="Banner 2" className="offer-img" />
+        <img src={banner3} alt="Banner 3" className="offer-img" />
+        <img src={banner4} alt="Banner 4" className="offer-img" />
       </div>
 
       {/* Categories Section */}
       <h2>What's on your mind Today?</h2>
       <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
-        <div><img src={biryani} alt="Biryani" width={100} /><p>Biryani</p></div>
-        <div><img src={burger} alt="Burger" width={100} /><p>Burger</p></div>
-        <div><img src={cake} alt="Cake" width={100} /><p>Cake</p></div>
-        <div><img src={chinese} alt="Chinese" width={100} /><p>Chinese</p></div>
-        <div><img src={icecream} alt="Ice Cream" width={100} /><p>Ice Cream</p></div>
-        <div><img src={idli} alt="Idli" width={100} /><p>Idli</p></div>
-        <div><img src={kebabs} alt="Kebabs" width={100} /><p>Kebabs</p></div>
-        <div><img src={momo} alt="Momo" width={100} /><p>Momo</p></div>
-        <div><img src={noodles} alt="Noodles" width={100} /><p>Noodles</p></div>
-        <div><img src={north_indian} alt="North Indian" width={100} /><p>North Indian</p></div>
-        <div><img src={paratha} alt="Paratha" width={100} /><p>Paratha</p></div>
-        <div><img src={pasta} alt="Pasta" width={100} /><p>Pasta</p></div>
-        <div><img src={pav_bhaji} alt="Pav Bhaji" width={100} /><p>Pav Bhaji</p></div>
-        <div><img src={pizza} alt="Pizza" width={100} /><p>Pizza</p></div>
-        <div><img src={rolls} alt="Rolls" width={100} /><p>Rolls</p></div>
-        <div><img src={shakes} alt="Shakes" width={100} /><p>Shakes</p></div>
-        <div><img src={shawarma} alt="Shawarma" width={100} /><p>Shawarma</p></div>
-        <div><img src={south_indian} alt="South Indian" width={100} /><p>South Indian</p></div>
-        <div><img src={starters} alt="Starters" width={100} /><p>Starters</p></div>
-        <div><img src={wings} alt="Wings" width={100} /><p>Wings</p></div>
+        <div><img src={biryani} alt="Biryani" className="category-img" /><p>Biryani</p></div>
+        <div><img src={burger} alt="Burger" className="category-img" /><p>Burger</p></div>
+        <div><img src={cake} alt="Cake" className="category-img" /><p>Cake</p></div>
+        <div><img src={chinese} alt="Chinese" className="category-img" /><p>Chinese</p></div>
+        <div><img src={icecream} alt="Ice Cream" className="category-img" /><p>Ice Cream</p></div>
+        <div><img src={idli} alt="Idli" className="category-img" /><p>Idli</p></div>
+        <div><img src={kebabs} alt="Kebabs" className="category-img" /><p>Kebabs</p></div>
+        <div><img src={momo} alt="Momo" className="category-img" /><p>Momo</p></div>
+        <div><img src={noodles} alt="Noodles" className="category-img" /><p>Noodles</p></div>
+        <div><img src={north_indian} alt="North Indian" className="category-img" /><p>North Indian</p></div>
+        <div><img src={paratha} alt="Paratha" className="category-img" /><p>Paratha</p></div>
+        <div><img src={pasta} alt="Pasta" className="category-img" /><p>Pasta</p></div>
+        <div><img src={pav_bhaji} alt="Pav Bhaji" className="category-img" /><p>Pav Bhaji</p></div>
+        <div><img src={pizza} alt="Pizza" className="category-img" /><p>Pizza</p></div>
+        <div><img src={rolls} alt="Rolls" className="category-img" /><p>Rolls</p></div>
+        <div><img src={shakes} alt="Shakes" className="category-img" /><p>Shakes</p></div>
+        <div><img src={shawarma} alt="Shawarma" className="category-img" /><p>Shawarma</p></div>
+        <div><img src={south_indian} alt="South Indian" className="category-img" /><p>South Indian</p></div>
+        <div><img src={starters} alt="Starters" className="category-img" /><p>Starters</p></div>
+        <div><img src={wings} alt="Wings" className="category-img" /><p>Wings</p></div>
       </div>
 
     </div>
