@@ -12,7 +12,7 @@ function Footer() {
             </div>
        </div>
        <div style={{backgroundColor:"#02050c"}} className='d-flex justify-content-center align-items-center w-100'>
-            <div className='w-75 mx-auto d-flex justify-content-around pt-5 pb-5'>
+            <div className='w-75 d-flex justify-content-around pt-5 pb-5'>
                 <div>
                     <div className='d-flex align-items-center'><img width={'30px'} src={logo} alt="Logo" />
                     <h3 style={{color:"white"}} className='fw-bolder mt-1 ms-2'>Foodcrave</h3></div>
