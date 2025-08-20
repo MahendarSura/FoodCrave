@@ -1,56 +1,33 @@
 import React from 'react';
 
-// Import banner images from src/Photos/
-import banner1 from '../Photos/Banner1.png';
-import banner2 from '../Photos/Banner2.png';
-import banner3 from '../Photos/Banner3.png';
-import banner4 from '../Photos/Banner4.png';
-
-// Import category images from src/Categories/
-import biryani from '../Categories/biryani.png';
-import burger from '../Categories/burger.png';
-import cake from '../Categories/cake.png';
-import chinese from '../Categories/chinese.png';
-import icecream from '../Categories/icecream.png';
-import idli from '../Categories/idli.png';
-import kebabs from '../Categories/kebabs.png';
-import momo from '../Categories/momo.png';
-import noodles from '../Categories/noodles.png';
-import north_indian from '../Categories/north_indian.png';
-import paratha from '../Categories/paratha.png';
-import pasta from '../Categories/pasta.png';
-import pav_bhaji from '../Categories/pav_bhaji.png';
-import pizza from '../Categories/pizza.png';
-import rolls from '../Categories/rolls.png';
-import shakes from '../Categories/shakes.png';
-import shawarma from '../Categories/shawarma.png';
-import south_indian from '../Categories/south_indian.png';
-import starters from '../Categories/starters.png';
-import wings from '../Categories/wings.png';
-
-const banners = [banner1, banner2, banner3, banner4];
+const banners = [
+  '/Photos/Banner1.png',
+  '/Photos/Banner2.png',
+  '/Photos/Banner3.png',
+  '/Photos/Banner4.png',
+];
 
 const categories = [
-  { img: biryani, name: 'Biryani' },
-  { img: burger, name: 'Burger' },
-  { img: cake, name: 'Cake' },
-  { img: chinese, name: 'Chinese' },
-  { img: icecream, name: 'Ice Cream' },
-  { img: idli, name: 'Idli' },
-  { img: kebabs, name: 'Kebabs' },
-  { img: momo, name: 'Momo' },
-  { img: noodles, name: 'Noodles' },
-  { img: north_indian, name: 'North Indian' },
-  { img: paratha, name: 'Paratha' },
-  { img: pasta, name: 'Pasta' },
-  { img: pav_bhaji, name: 'Pav Bhaji' },
-  { img: pizza, name: 'Pizza' },
-  { img: rolls, name: 'Rolls' },
-  { img: shakes, name: 'Shakes' },
-  { img: shawarma, name: 'Shawarma' },
-  { img: south_indian, name: 'South Indian' },
-  { img: starters, name: 'Starters' },
-  { img: wings, name: 'Wings' }
+  { img: '/Categories/biryani.png', name: 'Biryani' },
+  { img: '/Categories/burger.png', name: 'Burger' },
+  { img: '/Categories/cake.png', name: 'Cake' },
+  { img: '/Categories/chinese.png', name: 'Chinese' },
+  { img: '/Categories/icecream.png', name: 'Ice Cream' },
+  { img: '/Categories/idli.png', name: 'Idli' },
+  { img: '/Categories/kebabs.png', name: 'Kebabs' },
+  { img: '/Categories/momo.png', name: 'Momo' },
+  { img: '/Categories/noodles.png', name: 'Noodles' },
+  { img: '/Categories/north_indian.png', name: 'North Indian' },
+  { img: '/Categories/paratha.png', name: 'Paratha' },
+  { img: '/Categories/pasta.png', name: 'Pasta' },
+  { img: '/Categories/pav_bhaji.png', name: 'Pav Bhaji' },
+  { img: '/Categories/pizza.png', name: 'Pizza' },
+  { img: '/Categories/rolls.png', name: 'Rolls' },
+  { img: '/Categories/shakes.png', name: 'Shakes' },
+  { img: '/Categories/shawarma.png', name: 'Shawarma' },
+  { img: '/Categories/south_indian.png', name: 'South Indian' },
+  { img: '/Categories/starters.png', name: 'Starters' },
+  { img: '/Categories/wings.png', name: 'Wings' },
 ];
 
 const OffersBanner = () => {
@@ -96,9 +73,6 @@ const OffersBanner = () => {
           ))}
         </div>
       </section>
-
-      {/* You can add other parts of the homepage below */}
-
     </div>
   );
 };
