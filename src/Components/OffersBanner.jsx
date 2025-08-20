@@ -1,75 +1,73 @@
 import React from 'react';
-import './OfferBanner.css';
 
+// Banner images
 import banner1 from '../Photos/Banner1.png';
 import banner2 from '../Photos/Banner2.png';
 import banner3 from '../Photos/Banner3.png';
 import banner4 from '../Photos/Banner4.png';
 
+// Category images
 import biryani from '../Categories/biryani.png';
 import burger from '../Categories/burger.png';
-import pizza from '../Categories/pizza.png';
-import chinese from '../Categories/chinese.png';
 import cake from '../Categories/cake.png';
+import chinese from '../Categories/chinese.png';
 import icecream from '../Categories/icecream.png';
 import idli from '../Categories/idli.png';
 import kebabs from '../Categories/kebabs.png';
-import shakes from '../Categories/shakes.png';
 import momo from '../Categories/momo.png';
-import rolls from '../Categories/rolls.png';
+import noodles from '../Categories/noodles.png';
+import north_indian from '../Categories/north_indian.png';
+import paratha from '../Categories/paratha.png';
 import pasta from '../Categories/pasta.png';
+import pav_bhaji from '../Categories/pav_bhaji.png';
+import pizza from '../Categories/pizza.png';
+import rolls from '../Categories/rolls.png';
+import shakes from '../Categories/shakes.png';
 import shawarma from '../Categories/shawarma.png';
+import south_indian from '../Categories/south_indian.png';
 import starters from '../Categories/starters.png';
 import wings from '../Categories/wings.png';
-import paratha from '../Categories/paratha.png';
-import pav_bhaji from '../Categories/pav_bhaji.png';
-import noodles from '../Categories/noodles.png';
-import south_indian from '../Categories/south_indian.png'; 
-import north_indian from '../Categories/north_indian.png';
 
 function OffersBanner() {
-    return (
-        <div className='container-fluid d-flex justify-content-center align-items-center mt-5 flex-column'>
-            {/* Offers Section */}
-            <div className='w-100 px-3'>
-                <h4 className='fw-bolder'>Best offers for you</h4>
-                <div id='banner-img' className='d-flex align-items-center px-2' style={{ overflowX: "scroll", gap: "20px" }}>
-                    <img className="img-fluid" width={'450px'} src={banner2} alt="Offer" />
-                    <img className="img-fluid" width={'450px'} src={banner1} alt="Offer" />
-                    <img className="img-fluid" width={'450px'} src={banner3} alt="Offer" />
-                    <img className="img-fluid" width={'450px'} src={banner4} alt="Offer" />
-                </div>
-            </div>
+  return (
+    <div>
 
-            {/* Category Section */}
-            <div className='w-100 mt-5 px-3'>
-                <h4 className='fw-bolder'>What's on your mind Today in Mancherial?</h4>
-                <div className='d-flex align-items-center px-2' style={{ overflowX: "scroll", gap: "19px" }}>
-                    <img className='img-fluid' width={'140px'} src={biryani} alt="biryani" />
-                    <img className='img-fluid' width={'140px'} src={burger} alt="burger" />
-                    <img className='img-fluid' width={'140px'} src={pizza} alt="pizza" />
-                    <img className='img-fluid' width={'140px'} src={chinese} alt="chinese" />
-                    <img className='img-fluid' width={'140px'} src={cake} alt="cake" />
-                    <img className='img-fluid' width={'140px'} src={icecream} alt="ice Cream" />
-                    <img className='img-fluid' width={'140px'} src={idli} alt="idli" />
-                    <img className='img-fluid' width={'140px'} src={kebabs} alt="kebabs" />
-                    <img className='img-fluid' width={'140px'} src={shakes} alt="shakes" />
-                    <img className='img-fluid' width={'140px'} src={momo} alt="momo" />
-                    <img className='img-fluid' width={'140px'} src={rolls} alt="rolls" />
-                    <img className='img-fluid' width={'140px'} src={pasta} alt="pasta" />
-                    <img className='img-fluid' width={'140px'} src={shawarma} alt="shawarma" />
-                    <img className='img-fluid' width={'140px'} src={starters} alt="starters" />
-                    <img className='img-fluid' width={'140px'} src={wings} alt="wings" />
-                    <img className='img-fluid' width={'140px'} src={paratha} alt="paratha" />
-                    <img className='img-fluid' width={'140px'} src={pav_bhaji} alt="pav_bhaji" />
-                    <img className='img-fluid' width={'140px'} src={noodles} alt="noodles" />
-                    <img className='img-fluid' width={'140px'} src={south_indian} alt="south_indian" />
-                    <img className='img-fluid' width={'140px'} src={north_indian} alt="north_indian" />
-                </div>
-                <hr />
-            </div>
-        </div>
-    );
+      {/* Best Offers Section */}
+      <h2>Best Offers for You</h2>
+      <div style={{ display: 'flex', gap: '20px' }}>
+        <img src={banner1} alt="Banner 1" width={200} />
+        <img src={banner2} alt="Banner 2" width={200} />
+        <img src={banner3} alt="Banner 3" width={200} />
+        <img src={banner4} alt="Banner 4" width={200} />
+      </div>
+
+      {/* Categories Section */}
+      <h2>What's on your mind Today?</h2>
+      <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
+        <div><img src={biryani} alt="Biryani" width={100} /><p>Biryani</p></div>
+        <div><img src={burger} alt="Burger" width={100} /><p>Burger</p></div>
+        <div><img src={cake} alt="Cake" width={100} /><p>Cake</p></div>
+        <div><img src={chinese} alt="Chinese" width={100} /><p>Chinese</p></div>
+        <div><img src={icecream} alt="Ice Cream" width={100} /><p>Ice Cream</p></div>
+        <div><img src={idli} alt="Idli" width={100} /><p>Idli</p></div>
+        <div><img src={kebabs} alt="Kebabs" width={100} /><p>Kebabs</p></div>
+        <div><img src={momo} alt="Momo" width={100} /><p>Momo</p></div>
+        <div><img src={noodles} alt="Noodles" width={100} /><p>Noodles</p></div>
+        <div><img src={north_indian} alt="North Indian" width={100} /><p>North Indian</p></div>
+        <div><img src={paratha} alt="Paratha" width={100} /><p>Paratha</p></div>
+        <div><img src={pasta} alt="Pasta" width={100} /><p>Pasta</p></div>
+        <div><img src={pav_bhaji} alt="Pav Bhaji" width={100} /><p>Pav Bhaji</p></div>
+        <div><img src={pizza} alt="Pizza" width={100} /><p>Pizza</p></div>
+        <div><img src={rolls} alt="Rolls" width={100} /><p>Rolls</p></div>
+        <div><img src={shakes} alt="Shakes" width={100} /><p>Shakes</p></div>
+        <div><img src={shawarma} alt="Shawarma" width={100} /><p>Shawarma</p></div>
+        <div><img src={south_indian} alt="South Indian" width={100} /><p>South Indian</p></div>
+        <div><img src={starters} alt="Starters" width={100} /><p>Starters</p></div>
+        <div><img src={wings} alt="Wings" width={100} /><p>Wings</p></div>
+      </div>
+
+    </div>
+  );
 }
 
 export default OffersBanner;
