@@ -202,7 +202,6 @@ function RestaurentOnline() {
                             <p style={{ fontWeight: "300" }}>North Indian, Punjabi, Bpl X Road />Mancherial</p>
                         </div>
                     </div>
-
                 </div>
                 <hr />
             </div>
