@@ -1,4 +1,3 @@
-
 import './App.css';
 import BestRest from './Components/BestRest';
 import Footer from './Components/Footer';
