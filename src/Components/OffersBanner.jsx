@@ -1,4 +1,5 @@
 import React from 'react';
+import './OfferBanner.css';
 
 // Banner images
 import banner1 from '../Photos/Banner1.png';
