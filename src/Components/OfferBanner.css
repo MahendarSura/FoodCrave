@@ -1,6 +1,14 @@
-::-webkit-scrollbar{
-    display: none;
+#banner-img {
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: none; 
 }
-#banner-img img{
-    cursor: pointer;
+#banner-img::-webkit-scrollbar {
+    display: none; /* 
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
