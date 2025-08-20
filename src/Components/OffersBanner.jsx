@@ -33,36 +33,36 @@ function OffersBanner() {
             <div className='w-75'>
                 <h4 className='fw-bolder'>Best offers for you</h4>
                 <div id='banner-img' className='d-flex align-items-center' style={{ overflowX: "scroll", gap: "20px" }}>
-                    <img className="offer-img" src={banner2} alt="Offer" />
-                    <img className="offer-img" src={banner1} alt="Offer" />
-                    <img className="offer-img" src={banner3} alt="Offer" />
-                    <img className="offer-img" src={banner4} alt="Offer" />
+                    <img className="img-fluid" width={'450px'} src={banner2} alt="Offer" />
+                    <img className="img-fluid" width={'450px'} src={banner1} alt="Offer" />
+                    <img className="img-fluid" width={'450px'} src={banner3} alt="Offer" />
+                    <img className="img-fluid" width={'450px'} src={banner4} alt="Offer" />
                 </div>
             </div>
 
             <div className='w-75 mt-5'>
                 <h4 className='fw-bolder'>What's on your mind Today in Mancherial?</h4>
                 <div className='d-flex align-items-center' style={{ overflowX: "scroll", gap: "19px" }}>
-                    <img className='category-img' src={biryani} alt="biryani" />
-                    <img className='category-img' src={burger} alt="burger" />
-                    <img className='category-img' src={pizza} alt="pizza" />
-                    <img className='category-img' src={chinese} alt="chinese" />
-                    <img className='category-img' src={cake} alt="cake" />
-                    <img className='category-img' src={icecream} alt="ice Cream" />
-                    <img className='category-img' src={idli} alt="idli" />
-                    <img className='category-img' src={kebabs} alt="kebabs" />
-                    <img className='category-img' src={shakes} alt="shakes" />
-                    <img className='category-img' src={momo} alt="momo" />
-                    <img className='category-img' src={rolls} alt="rolls" />
-                    <img className='category-img' src={pasta} alt="pasta" />
-                    <img className='category-img' src={shawarma} alt="shawarma" />
-                    <img className='category-img' src={starters} alt="starters" />
-                    <img className='category-img' src={wings} alt="wings" />
-                    <img className='category-img' src={paratha} alt="paratha" />
-                    <img className='category-img' src={pav_bhaji} alt="pav_bhaji" />
-                    <img className='category-img' src={noodles} alt="noodles" />
-                    <img className='category-img' src={south_indian} alt="south_indian" />
-                    <img className='category-img' src={north_indian} alt="north_indian" />
+                    <img className='img-fluid' width={'140px'} src={biryani} alt="biryani" />
+                    <img className='img-fluid' width={'140px'} src={burger} alt="burger" />
+                    <img className='img-fluid' width={'140px'} src={pizza} alt="pizza" />
+                    <img className='img-fluid' width={'140px'} src={chinese} alt="chinese" />
+                    <img className='img-fluid' width={'140px'} src={cake} alt="cake" />
+                    <img className='img-fluid' width={'140px'} src={icecream} alt="ice Cream" />
+                    <img className='img-fluid' width={'140px'} src={idli} alt="idli" />
+                    <img className='img-fluid' width={'140px'} src={kebabs} alt="kebabs" />
+                    <img className='img-fluid' width={'140px'} src={shakes} alt="shakes" />
+                    <img className='img-fluid' width={'140px'} src={momo} alt="momo" />
+                    <img className='img-fluid' width={'140px'} src={rolls} alt="rolls" />
+                    <img className='img-fluid' width={'140px'} src={pasta} alt="pasta" />
+                    <img className='img-fluid' width={'140px'} src={shawarma} alt="shawarma" />
+                    <img className='img-fluid' width={'140px'} src={starters} alt="starters" />
+                    <img className='img-fluid' width={'140px'} src={wings} alt="wings" />
+                    <img className='img-fluid' width={'140px'} src={paratha} alt="paratha" />
+                    <img className='img-fluid' width={'140px'} src={pav_bhaji} alt="pav_bhaji" />
+                    <img className='img-fluid' width={'140px'} src={noodles} alt="noodles" />
+                    <img className='img-fluid' width={'140px'} src={south_indian} alt="south_indian" />
+                    <img className='img-fluid' width={'140px'} src={north_indian} alt="north_indian" />
                 </div>
                 <hr />
             </div>
