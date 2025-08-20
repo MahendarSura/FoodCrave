@@ -1,167 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FoodCrave</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #ffcc00; /* Mustard yellow */
-      color: black;
-    }
-    .top-bar {
-      display: flex;
-      justify-content: flex-end;
-      background: #ffee66;
-      padding: 10px 20px;
-      font-size: 14px;
-    }
-    .top-bar a {
-      margin-left: 20px;
-      color: black;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      background: #ffcc00;
-    }
-    .logo {
-      display: flex;
-      align-items: center;
-    }
-    .logo img {
-      height: 40px;
-      margin-right: 10px;
-    }
-    .logo span {
-      font-size: 24px;
-      font-weight: bold;
-    }
-    .hero {
-      background: #ffdd33;
-      display: flex;
-      justify-content: space-between;
-      padding: 40px;
-      align-items: center;
-    }
-    .hero-text {
-      max-width: 50%;
-    }
-    .hero-text h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-    .search-box {
-      margin-top: 20px;
-    }
-    .search-box input {
-      width: 300px;
-      padding: 10px;
-      font-size: 16px;
-    }
-    .hero-images {
-      display: flex;
-      gap: 20px;
-    }
-    .hero-images img {
-      width: 300px;
-      border-radius: 8px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    }
-    .categories {
-      padding: 20px;
-    }
-    .categories h2 {
-      margin-bottom: 20px;
-    }
-    .cat-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(140px,1fr));
-      gap: 15px;
-    }
-    .footer {
-      background: #ffee66;
-      padding: 20px;
-      margin-top: 40px;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Foodcrave App</title>
 </head>
+
 <body>
-
-  <!-- Top Bar -->
-  <div class="top-bar">
-    <a href="#">Cart</a>
-    <a href="#">Sign In</a>
-    <a href="#">Help</a>
-    <a href="#">Offers</a>
-    <a href="#">Search</a>
-    <a href="#">Corporate</a>
-  </div>
-
-  <!-- Header -->
-  <header>
-    <div class="logo">
-      <img src="YOUR_LOGO_URL" alt="FoodCrave Logo">
-      <span>FoodCrave</span>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <div class="hero">
-    <div class="hero-text">
-      <h1>Order food & groceries. Discover best restaurants. FoodCrave it!</h1>
-      <div class="search-box">
-        <input type="text" placeholder="Enter your delivery location">
-      </div>
-    </div>
-    <div class="hero-images">
-      <img src="BIRYANI_IMAGE_URL" alt="Biryani">
-      <img src="STARTERS_IMAGE_URL" alt="Starters">
-    </div>
-  </div>
-
-  <!-- Categories Section -->
-  <div class="categories">
-    <h2>Shop groceries on Instamart</h2>
-    <div class="cat-grid">
-      <div>Fresh Vegetables</div>
-      <div>Fresh Fruits</div>
-      <div>Dairy, Bread & Eggs</div>
-      <div>Rice, Atta & Dals</div>
-      <div>Masalas & Dry Fruits</div>
-      <div>Oils & Ghee</div>
-      <div>Munchies</div>
-      <div>Sweet Tooth</div>
-      <div>Cold Drinks & Juices</div>
-      <div>Biscuits & Cakes</div>
-      <div>Instant & Frozen Food</div>
-      <div>Meat & Seafood</div>
-      <div>Cereals & Breakfast</div>
-      <div>Sauces & Spreads</div>
-      <div>Tea, Coffee & More</div>
-      <div>Cleaning Essentials</div>
-      <div>Pharma & Hygiene</div>
-      <div>Bath, Body & Hair</div>
-      <div>Paan Corner</div>
-      <div>Home & Kitchen</div>
-      <div>Office & Electricals</div>
-      <div>Baby Care</div>
-      <div>Pet Supplies</div>
-      <div>Beauty & Grooming</div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <div class="footer">
-    <!-- Add your company links and legal info like Swiggy's footer -->
-    <div>© 2025 FoodCrave Limited</div>
-  </div>
-
+  <div id="root"></div>
 </body>
+
 </html>
